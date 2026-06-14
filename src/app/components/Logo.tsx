@@ -1,4 +1,3 @@
-import logoSrc from "../../imports/___1.png";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 interface LogoProps {
@@ -10,7 +9,7 @@ interface LogoProps {
 export function Logo({ className = "" }: LogoProps) {
   return (
     <ImageWithFallback
-      src={logoSrc}
+      src="/images/logo.webp"
       alt="SZAA — International Alliance for the Mutual Recognition of TVET Learning Outcomes"
       className={`h-14 w-auto object-contain md:h-16 ${className}`}
     />
